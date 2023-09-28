@@ -1,0 +1,129 @@
+#navig {
+  float: right;
+  letter-spacing: 1px;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+
+#grp {
+  display: inline-block;
+  padding: 10px;
+  color: red;
+  margin: 10px;
+}
+
+html {
+  font-family: "Sofia", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #d1884f;
+}
+
+header {
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  color: #3bbadb;
+  font-size: 20px;
+  font-weight: lighter;
+}
+section {
+  position: absolute;
+  top: 280px;
+  left: 80px;
+  color: #3bbadb;
+  font-weight: bold;
+  font-size: 50px;
+}
+section span {
+  color: #d1884f;
+  font-weight: bold;
+}
+
+.art {
+  position: absolute;
+  color: black;
+  width: 300px;
+  top: 420px;
+  left: 80px;
+  word-spacing: 2px;
+}
+
+.fot {
+  position: absolute;
+  top: 550px;
+  left: 80px;
+}
+.bt1 {
+  background-color: #3bbadb;
+  color: white;
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 300;
+  border-radius: 10px;
+  border-width: thin;
+  box-shadow: 2px 2px #3bbadb;
+}
+
+.bt2 {
+  background-color: white;
+  color: #3bbadb;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: 300;
+  border-color: #3bbadb;
+  border-radius: 10px;
+  margin-left: 20px;
+  border-width: thin;
+  box-shadow: 1px 1px;
+}
+.col-lg-3 {
+  width: 25%;
+  min-width: 25%;
+  position: absolute;
+  right: 250px;
+  top: 220px;
+  background-color: #52ccd9;
+  border-bottom-left-radius: 10rem;
+}
+.col-lg-3 img {
+  max-width: 100%;
+  border-bottom-left-radius: 10rem;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+#myS {
+  position: absolute;
+  top: 620px;
+  left: 80px;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #d1884f;
+}
+.skills {
+  position: absolute;
+  top: 650px;
+  left: 50px;
+}
+
+.skills li {
+  color: #52ccd9;
+  font-weight: lighter;
+}
+.socialM {
+  position: absolute;
+  right: 250px;
+  top: 700px;
+  background-color: none;
+}
+.socialM img {
+  padding-left: 10px;
+}
